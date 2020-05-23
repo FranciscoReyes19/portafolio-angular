@@ -23,6 +23,7 @@ import { UserService } from './services/user.service';
 import {IdentityGuard} from './services/identity.guard';
 import { ProfileComponent } from './components/profile/profile.component';
 import { PostListComponent } from './components/post-list/post-list.component';
+import { HomePortafolioComponent } from './components/home-portafolio/home-portafolio.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PostListComponent } from './components/post-list/post-list.component';
     PostEditComponent,
     CategoryDetailComponent,
     ProfileComponent,
-    PostListComponent
+    PostListComponent,
+    HomePortafolioComponent
   ],
   imports: [
     BrowserModule,

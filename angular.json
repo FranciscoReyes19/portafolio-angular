@@ -25,15 +25,32 @@
             ],
             "styles": [
               "src/styles.css",
+              "src/assets/css/style-bolby.css",
+              "src/assets/css/slick.css",
+              "src/assets/css/all.min.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/froala-editor/css/froala_editor.pkgd.min.css",
               "node_modules/froala-editor/css/froala_style.min.css",
-              "node_modules/font-awesome/css/font-awesome.css"
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/simple-line-icons/css/simple-line-icons.css",
+              "node_modules/animate.css/animate.css",
+              "node_modules/magnific-popup/dist/magnific-popup.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/froala-editor/js/froala_editor.pkgd.min.js"
+              "node_modules/froala-editor/js/froala_editor.pkgd.min.js",
+              "node_modules/jquery.easing/jquery.easing.min.js",
+              "node_modules/jquery-waypoints/waypoints.min.js",
+              "node_modules/jquery.counterup/jquery.counterup.min.js",
+              "node_modules/popper.js/dist/popper.min.js",
+              "node_modules/infinite-scroll/dist/infinite-scroll.pkgd.min.js",
+              "node_modules/imagesloaded/imagesloaded.pkgd.min.js",
+              "node_modules/morphext/dist/morphext.min.js",
+              "node_modules/magnific-popup/dist/jquery.magnific-popup.min.js",
+              "node_modules/wowjs/dist/wow.min.js",
+              "node_modules/parallax-js/dist/parallax.min.js",
+              "node_modules/isotope-layout/dist/isotope.pkgd.min.js"
             ]
           },
           "configurations": {
