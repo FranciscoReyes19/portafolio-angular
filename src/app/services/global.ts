@@ -1,5 +1,5 @@
 export var global = {
-	url: 'http://laravel.com:8080/api/',
+	url: 'http://localhost/dev/api-rest-laravel/public/api/',
 	//url: 'http://api-rest-laravel.devel.com/api/',
 	//funciona anonima
 	htmlEntities: function(str) {

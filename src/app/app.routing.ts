@@ -15,12 +15,13 @@ import { PostDetailComponent} from './components/post-detail/post-detail.compone
 import { PostEditComponent } from './components/post-edit/post-edit.component';
 import { CategoryDetailComponent } from './components/category-detail/category-detail.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { CvComponent } from './components/cv-component/cv-component.component';
 
 import {IdentityGuard} from './services/identity.guard';
 
 //DEFINIR LAS RUTAS
 const appRoutes:Routes = [
-   {path: '',component: HomeComponent},
+   {path: '',component: CvComponent},
    {path: 'inicio',component: HomeComponent},
    {path: 'login',component: LoginComponent},
    {path: 'logout/:sure',component: LoginComponent},
@@ -32,6 +33,7 @@ const appRoutes:Routes = [
    {path: 'editar-entrada/:id',component: PostEditComponent, canActivate: [IdentityGuard]},
    {path: 'categoria/:id',component: CategoryDetailComponent},
    {path: 'perfil/:id',component: ProfileComponent, canActivate: [IdentityGuard]},
+   {path: 'cv',component: CvComponent},
    {path: '**',component: ErrorComponent}
 ];
 

@@ -236,6 +236,18 @@ $(document).on('ready', function() {
       autoplay: true,
       autoplaySpeed: 3000
     });
+	$('.lazy').slick({
+	  lazyLoad: 'ondemand',
+	  slidesToShow: 1,
+	  slidesToScroll: 2
+	});
+	$('.fade').slick({
+	  dots: true,
+	  infinite: true,
+	  speed: 500,
+	  fade: true,
+	  cssEase: 'linear'
+	});
 
 });
 
@@ -315,13 +327,6 @@ $(function(){
      =========================================================================*/
     $("body").scrollspy({ target: ".scrollspy"});
 
-    /*=========================================================================
-     Counterup JS for facts
-     =========================================================================*/
-    $('.count').counterUp({
-      delay: 10,
-      time: 2000
-    });
 
     /*=========================================================================
      Progress bar animation with Waypoint JS

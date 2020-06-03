@@ -334,12 +334,12 @@ header.desktop-header-1 {
   background: #353353;
   padding: 50px 40px 40px;
   position: fixed;
-  left: 0;
+  left:120px;
   overflow-y: auto;
   overflow-x: hidden;
   height: 100vh;
   min-height: 100vh;
-  top: 0;
+  top: 55px;
   width: 290px;
   z-index: 1;
   -webkit-transform: translateX(0);
@@ -857,7 +857,7 @@ section.home.light .social-icons li a:hover {
 }
 .section-title:before {
   content: "";
-  background-image: url(../images/dots-bg.svg);
+  background-image: url(../assets/images/dots-bg.svg);
   display: block;
   height: 37px;
   left: -14px;
@@ -1303,7 +1303,7 @@ select.portfolio-filter-mobile {
 /*                      CONTACT                              
 /*=================================================================*/
 .contact-info {
-  background-image: url("../images/map.svg");
+  background-image: url("../assets/images/map.svg");
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 200px;
@@ -1477,7 +1477,7 @@ body.dark .section-title {
   color: #FFF;
 }
 body.dark .section-title:before {
-  background: url("../images/dots-bg-light.svg");
+  background: url("../assets/images/dots-bg-light.svg");
 }
 body.dark .bg-dark {
   background: #302f4e !important;
@@ -1507,7 +1507,7 @@ body.dark .blog-item .details h4.title a:hover {
   color: #FF4C60;
 }
 body.dark .contact-info {
-  background-image: url("../images/map-light.png");
+  background-image: url("../assets/images/map-light.png");
 }
 body.dark .white-popup {
   background: #302f4e;

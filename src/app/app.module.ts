@@ -20,10 +20,10 @@ import { PostEditComponent } from './components/post-edit/post-edit.component';
 import { CategoryDetailComponent } from './components/category-detail/category-detail.component';
 
 import { UserService } from './services/user.service';
-import {IdentityGuard} from './services/identity.guard';
+import { IdentityGuard } from './services/identity.guard';
 import { ProfileComponent } from './components/profile/profile.component';
 import { PostListComponent } from './components/post-list/post-list.component';
-import { HomePortafolioComponent } from './components/home-portafolio/home-portafolio.component';
+import { CvComponent } from './components/cv-component/cv-component.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,7 @@ import { HomePortafolioComponent } from './components/home-portafolio/home-porta
     CategoryDetailComponent,
     ProfileComponent,
     PostListComponent,
-    HomePortafolioComponent
+    CvComponent,
   ],
   imports: [
     BrowserModule,
