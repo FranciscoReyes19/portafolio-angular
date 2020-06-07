@@ -52,7 +52,7 @@
 		</div>
 		<br>
 
-		<input type="submit" value="Guardar" class="btn btn-success" [disabled]="postNew.invalid" />
+		<input type="submit" value="Guardar" class="btn btn-success" [disabled]="postNew.invalid || !post.image" />
 	</form>
 
 	<br>

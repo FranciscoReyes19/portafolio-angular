@@ -32,7 +32,7 @@ export class PostNewComponent implements OnInit {
 	    toolbarButtonsMD: ['bold', 'italic', 'underline', 'paragraphFormat']
 	};
 	public afuConfig = {
-      multiple: false,
+      multiple: true,
       formatsAllowed: ".jpg, .png, .gif, .jpeg",
       maxSize: "50",
       uploadAPI:  {

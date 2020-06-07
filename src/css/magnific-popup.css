@@ -66,9 +66,9 @@
   cursor: -moz-zoom-in;
   cursor: zoom-in; }
 
-.mfp-auto-cursor .mfp-content {
+/*.mfp-auto-cursor .mfp-content {
   cursor: auto; }
-
+*/
 .mfp-close,
 .mfp-arrow,
 .mfp-preloader,
