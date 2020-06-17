@@ -24,6 +24,7 @@ import { IdentityGuard } from './services/identity.guard';
 import { ProfileComponent } from './components/profile/profile.component';
 import { PostListComponent } from './components/post-list/post-list.component';
 import { CvComponent } from './components/cv-component/cv-component.component';
+import { CategoryWorkNewComponent } from './components/category-work-new/category-work-new.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { CvComponent } from './components/cv-component/cv-component.component';
     ProfileComponent,
     PostListComponent,
     CvComponent,
+    CategoryWorkNewComponent,
   ],
   imports: [
     BrowserModule,

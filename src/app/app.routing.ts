@@ -10,6 +10,7 @@ import { ErrorComponent } from './components/error/error.component';
 import { HomeComponent } from './components/home/home.component';
 import { UserEditComponent} from './components/user-edit/user-edit.component';
 import { CategoryNewComponent} from './components/category-new/category-new.component';
+import { CategoryWorkNewComponent} from './components/category-work-new/category-work-new.component';
 import { PostNewComponent} from './components/post-new/post-new.component';
 import { PostDetailComponent} from './components/post-detail/post-detail.component';
 import { PostEditComponent } from './components/post-edit/post-edit.component';
@@ -29,6 +30,7 @@ const appRoutes:Routes = [
    {path: 'ajustes',component: UserEditComponent, canActivate: [IdentityGuard]},
    {path: 'crear-post',component: PostNewComponent,canActivate: [IdentityGuard]},
    {path: 'crear-categoria',component: CategoryNewComponent,canActivate: [IdentityGuard]},
+   {path: 'crear-categoria-work',component: CategoryWorkNewComponent,canActivate: [IdentityGuard]},
    {path: 'entrada/:id',component: PostDetailComponent},
    {path: 'editar-entrada/:id',component: PostEditComponent, canActivate: [IdentityGuard]},
    {path: 'categoria/:id',component: CategoryDetailComponent},
